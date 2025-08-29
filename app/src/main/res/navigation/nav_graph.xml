@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/LoadingFragment">
+
+    <fragment
+        android:id="@+id/LoadingFragment"
+        android:name="com.turbo2k.bydverificationtool.fragments.LoadingFragment"
+        android:label="@string/loading_fragment_label"
+        tools:layout="@layout/fragment_loading">
+
+        <action
+            android:id="@+id/action_LoadingFragment_to_DevelopmentToolsVerificationFragment"
+            app:destination="@id/DevelopmentToolsVerificationFragment"
+            app:popUpTo="@id/LoadingFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/DevelopmentToolsVerificationFragment"
+        android:name="com.turbo2k.bydverificationtool.fragments.DevelopmentToolsVerificationFragment"
+        android:label="@string/development_tools_verification_fragment_label"
+        tools:layout="@layout/fragment_development_tools_verification" />
+
+</navigation>

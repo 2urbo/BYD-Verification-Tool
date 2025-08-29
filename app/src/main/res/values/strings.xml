@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">BYD Verification Tool</string>
+
+    <string name="loading_fragment_label">Loading</string>
+    <string name="development_tools_verification_fragment_label">Development Tools Verification</string>
+
+    <string name="disclaimer_title">Disclaimer</string>
+    <string name="disclaimer_message">This application is experimental software provided for testing and evaluation purposes only. It is not intended for general or production use, and its functionality may be incomplete, unstable, or unreliable.\n\nThe software is provided &quot;as is&quot;, without any warranties—express or implied—including but not limited to warranties of merchantability, fitness for a particular purpose, or non-infringement.\n\nBy using this application, you acknowledge and accept that you do so at your own risk. The author assumes no responsibility or liability for any damages, malfunctions, data loss, or adverse effects to vehicles, devices, or systems resulting from its use.\n\nIt is your responsibility to ensure the software is used in a controlled, safe, and appropriate environment. Use of this app constitutes acceptance of these terms.</string>
+
+    <string name="unsupported_platform_message">"Unfortunately, due to compatibility limitations, this platform or vehicle is not supported.</string>
+
+    <string name="agree_button">Agree</string>
+    <string name="exit_button">Exit</string>
+
+    <string name="unknown_value">N/A</string>
+
+    <string name="development_tools_verification_description">This utility is used to manage QR code verification for BYD Development Tools</string>
+
+    <string name="disable_qr_verification_switch">Disable QR verification</string>
+
+    <string name="development_tools_button">Open Development Tools</string>
+
+    <string name="feature_not_supported_message">"This feature is not supported.</string>
+    <string name="no_dialer_app_message">"Unable to find a dialer app to handle the MMI code.</string>
+    <string name="unexpected_failure_message">"An unexpected failure occurred during the operation.</string>
+
+    <string name="platform_name_label">Platform: %1$s</string>
+    <string name="firmware_version_label">Firmware: %1$s</string>
+    <string name="app_version_label">Version: %1$s (%2$s)</string>
+    <string name="author_label">Author: 2urbo2k</string>
+
+</resources>
